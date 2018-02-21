@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: lightgreen;
+  color: darkolivegreen;
+  text-align: center;
+  padding: 15px;
+  margin: 1px 10px 1px 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkolivegreen;
+  margin: 1px 10px 1px 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: yellowgreen
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 10px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.footer {
+  bottom: 0;
+  margin: 1px 10px 1px 10px;
+  text-align: center;
+  background-color: lightgreen;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
