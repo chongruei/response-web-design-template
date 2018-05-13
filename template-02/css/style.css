@@ -172,6 +172,15 @@ footer {
 }
 
 /* Media Queries */
+@media(max-width: 1168px) {
+  #newsletter input[type="email"] {
+    width: 190px;
+  }
+  #boxes .box {
+    width: 45%;
+  }
+}
+
 @media(max-width: 768px) {
   header {
     padding-bottom: 10px;
